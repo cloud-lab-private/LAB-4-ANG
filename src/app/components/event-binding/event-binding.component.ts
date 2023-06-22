@@ -25,7 +25,7 @@ export class EventBindingComponent implements OnInit {
    */
 processClickButton2() {
     this.button1ClickedMessage = "button 2 clicked!";
-  for(let i=0;i<100000,i++){
+  for(let i=0;i<100000;i++){
     console.log('wait...!');
   }
 
