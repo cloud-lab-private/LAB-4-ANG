@@ -24,7 +24,10 @@ export class EventBindingComponent implements OnInit {
    * The method should be bound to the click event of button 2 via event binding.
    */
 processClickButton2() {
-    this.button1ClickedMessage = "button 2 clicked!";
+
+// Change "button 2 clicked!" to "button 1 clicked!"
+  
+    this.button2ClickedMessage = "button 2 clicked!";
   for(let i=0;i<100000;i++){
     console.log('wait...!');
   }
